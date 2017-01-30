@@ -2,12 +2,12 @@ public class integerSequences {
     private static String firstArg;
     private static int secondArg;
 
-    private static int lazyCatererSequence(int n) {
+    public static int lazyCatererSequence(int n) {
         n = (n^2 + n + 2) / 2;
         return n;
     }
 
-    private static int triangleNumberSequence(int n) {
+    public static int triangleNumberSequence(int n) {
         n = n * (n+1) / 2;
         return n;
     }
